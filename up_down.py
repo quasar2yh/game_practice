@@ -73,7 +73,7 @@ class Updown:
             else:
                 return True
         except ValueError:
-            print('WARNING : 숫자를 입력하셔야 합니다')
+            print('WARNING : 숫자를 입력하셔야 합니다.')
             return False
 
     def check_input_num(self, input_num):
